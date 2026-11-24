@@ -8,12 +8,89 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_width="420dp"
+        android:layout_height="50dp"
+        android:text="Rejestruj konto"
+        android:textSize="35dp"
+        android:background="#03FFD5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="420dp"
+        android:layout_height="33dp"
+        android:text="Podaj email:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="wpisz emial..."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="420dp"
+        android:layout_height="33dp"
+        android:text="Podaj hasło: "
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="wpisz hasło..."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="420dp"
+        android:layout_height="33dp"
+        android:text="Powtórz hasło: "
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="powtórz hasło..."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="183dp"
+        android:layout_height="46dp"
+        android:text="Zatwierdz"
+        android:backgroundTint="#8A8484"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="413dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
